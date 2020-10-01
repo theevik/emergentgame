@@ -11,14 +11,14 @@ public class scriptintro : MonoBehaviour
     public float Speed = 5f;
     public Rigidbody2D rb;
     Vector2 movement;
+
+    public GameObject respawn;
+
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = new Vector2(-4f, 0.5f);
+        transform.position = respawn.transform.position;
     }
-
-    
-
 
     // Update is called once per frame
     void Update()
@@ -32,5 +32,5 @@ public class scriptintro : MonoBehaviour
         rb.MovePosition(rb.position + movement * Speed * Time.fixedDeltaTime);
     }
 
-
+    
 }
