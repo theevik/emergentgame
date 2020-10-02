@@ -6,10 +6,12 @@ using UnityEngine;
 
 public class pathing : MonoBehaviour
 {
+    [SerializeField]
+    private FieldOfView fieldOfView;
+
     public float speed;
     private float wait;
     public float startwait;
-
 
     public Transform[] spots;
 
@@ -25,6 +27,10 @@ public class pathing : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, spots[random].position, speed * Time.deltaTime);
+
+        fieldOfView.SetAimDirection(spots[random].position);
+        fieldOfView.SetOrigin(transform.position);
+    
 
         if(Vector2.Distance(transform.position, spots[random].position) < 0.2f)
         {
