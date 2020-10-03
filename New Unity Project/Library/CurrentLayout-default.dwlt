@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 881, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 880, y: 492}
+  m_MaxSize: {x: 18001, y: 14042}
   vertical: 0
-  controlID: 15344
+  controlID: 5500
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,9 +138,9 @@ MonoBehaviour:
     width: 1367
     height: 947
   m_MinSize: {x: 605, y: 492}
-  m_MaxSize: {x: 14003, y: 14042}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 1
-  controlID: 15236
+  controlID: 5569
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 15317
+  controlID: 5570
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,10 +268,10 @@ MonoBehaviour:
     y: 573
     width: 1367
     height: 374
-  m_MinSize: {x: 333, y: 271}
-  m_MaxSize: {x: 14003, y: 10021}
+  m_MinSize: {x: 331, y: 271}
+  m_MaxSize: {x: 14001, y: 10021}
   vertical: 0
-  controlID: 15237
+  controlID: 5463
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -409,7 +409,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -423,7 +423,7 @@ MonoBehaviour:
       y: 21
       width: 422
       height: 531
-    m_Scale: {x: 0.21979167, y: 0.21979168}
+    m_Scale: {x: 0.21979168, y: 0.21979168}
     m_Translation: {x: 211, y: 265.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -431,9 +431,9 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -960
+      x: -959.99994
       y: -1207.962
-      width: 1920
+      width: 1919.9999
       height: 2415.924
     m_MinimalGUI: 1
   m_defaultScale: 0.21979167
@@ -472,9 +472,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 6675ffff7a75ffff9a75ffff1876ffff3477ffff4877ffff6877ffffe677ffff2879ffff3c79ffff5c79ffffda79ffff8c7cffff747dffff887dffffce7efffff47effffc68affffda8affff1c8cffff3e8cffff948fffffa88fffffee90ffff1491ffff8c97ffff109fffff10a7ffff06a8ffffe8aeffff5eb0ffff50bbffffe2c5ffff74deffff84f0ffff5af6ffff32fbffffd04000003a5a0000
+      m_SelectedIDs: ece0ffff
+      m_LastClickedID: -7956
+      m_ExpandedIDs: 12f5ffffa0f5ffff32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -534,9 +534,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 10.1320305, y: -14.145525, z: -467.4453}
+    m_Target: {x: 1.1472021, y: 0.120982714, z: -2.0083132}
     speed: 2
-    m_Value: {x: 10.1320305, y: -14.145525, z: -467.4453}
+    m_Value: {x: 1.1472021, y: 0.120982714, z: -2.0083132}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -586,9 +586,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 26.545755
+    m_Target: 7.2728205
     speed: 2
-    m_Value: 25.402637
+    m_Value: 7.6155186
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -742,20 +742,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PreFabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 76
   m_LastFolders:
-  - Assets/PreFabs
+  - Assets
   m_LastFoldersGridSize: 76
   m_LastProjectPath: D:\unity projects\emergentgame\emergentgame\New Unity Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 563c0000
-    m_LastClickedID: 15446
-    m_ExpandedIDs: 000000003c3c000000ca9a3b
+    m_SelectedIDs: a23c0000
+    m_LastClickedID: 15522
+    m_ExpandedIDs: 00000000a23c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -783,7 +783,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c3c000000ca9a3b
+    m_ExpandedIDs: 00000000a23c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -810,7 +810,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000744800007a480000ca390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
